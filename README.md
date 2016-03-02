@@ -21,7 +21,11 @@ vim /usr/bin/virtualenv
 # cd letsencrypt
 # ./letsencrypt-auto --help
 # ./letsencrypt-auto --renew certonly -a standalone --server https://acme-v01.api.letsencrypt.org/directory \
- --agree-dev-preview -d wp.hidetoshi.xyz
+ --agree-dev-preview -d <domain_name>
+ 
+/etc/letsencrypt/live/<domain_name> 
+→ cert.pem  chain.pem  fullchain.pem  privkey.pem
+
 # service nginx stop
 ```
 
