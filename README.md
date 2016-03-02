@@ -37,6 +37,8 @@ ssl_certificate /etc/letsencrypt/live/<domain_name>/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/<domain_name>/privkey.pem;
 ```
 
+設定したらnginxを起動する
+
 Lets Encryptの証明書の有効期限は90日なので毎日1日午前1時に自動更新
 
 crontab -l
