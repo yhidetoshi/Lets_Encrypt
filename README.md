@@ -1,4 +1,4 @@
-#### CentOS6.7にLet’s Encryptを導入する手順
+### CentOS6.7にLet’s Encryptを導入する手順
 
 CentOS6だとpython2.6がデフォルトインストールされているため
 python2.7以上をインストールする。
