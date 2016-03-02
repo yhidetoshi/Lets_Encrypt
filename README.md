@@ -23,7 +23,7 @@ vim /usr/bin/virtualenv
 # ./letsencrypt-auto --renew certonly -a standalone --server https://acme-v01.api.letsencrypt.org/directory \
  --agree-dev-preview -d <domain_name>
  
-/etc/letsencrypt/live/<domain_name> 
+/etc/letsencrypt/live/<domain_name>に証明書が生成される
 → cert.pem  chain.pem  fullchain.pem  privkey.pem
 
 # service nginx stop
