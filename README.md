@@ -8,6 +8,7 @@ ptyhon2.7のインストール方法:https://github.com/yhidetoshi/python2.7.6
 ```
 # cd /usr/local/src/
 # git clone https://github.com/letsencrypt/letsencrypt.git
+(# git clone https://github.com/letsencrypt/letsencrypt.git /usr/local/letsencript)
 
 
 vim /usr/bin/virtualenv
