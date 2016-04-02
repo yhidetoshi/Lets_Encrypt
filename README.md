@@ -3,7 +3,7 @@
 CentOS6だとpython2.6がデフォルトインストールされているため
 python2.7以上をインストールする。
 
-ptyhon2.7のインストール方法:https://github.com/yhidetoshi/python2.6_to_2.7
+ptyhon2.7のインストール方法:https://github.com/yhidetoshi/python2.7.6
 
 ```
 # cd /usr/local/src/
